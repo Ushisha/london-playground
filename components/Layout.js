@@ -23,6 +23,7 @@ export default function Layout({ title, keywords, description, children }) {
 
 Layout.defaultProps = {
   title: "London Events | find the hottest events",
-  description: "Find the latest events and other interesting events",
+  description:
+    "Find the latest events and other interesting thing to do in London",
   keywords: "events,London",
 };
