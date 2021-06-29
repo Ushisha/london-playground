@@ -4,5 +4,5 @@
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
   "/events/[slug]": "pages/events/[slug].js",
-  "/events": "pages/events.js"
+  "/api/user": "pages/api/user.js"
 }
