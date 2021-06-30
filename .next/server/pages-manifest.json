@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/events": "pages/events.js",
-  "/account/dashboard": "pages/account/dashboard.js",
-  "/events/[slug]": "pages/events/[slug].js"
+  "/events/[slug]": "pages/events/[slug].js",
+  "/account/login": "pages/account/login.js"
 }

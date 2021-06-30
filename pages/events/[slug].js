@@ -44,6 +44,16 @@ export default function EventPage({ evt }) {
     </Layout>
   );
 }
+export async function getServerSideProps({ query: { slug } }) {
+  const res = await fetch(`${API_URL}/events?slug=${slug}`);
+  const events = await res.json();
+
+  return {
+    props: {
+      evt: events[0],
+    },
+  };
+}
 
 // export async function getStaticPaths() {
 //   const res = await fetch(`${API_URL}/events`)
@@ -70,14 +80,3 @@ export default function EventPage({ evt }) {
 //     revalidate: 1,
 //   }
 // }
-
-export async function getServerSideProps({ query: { slug } }) {
-  const res = await fetch(`${API_URL}/events?slug=${slug}`);
-  const events = await res.json();
-
-  return {
-    props: {
-      evt: events[0],
-    },
-  };
-}
