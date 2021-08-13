@@ -1,16 +1,18 @@
 # London Events (Frontend)
 
-website for London Events searching & posting. This site uses Strapi as a backend. 
+Events searching & posting website built with Nextjs.
+
+This site uses Strapi as a backend.
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://londonplaygroundfrontend.vercel.app/](https://londonplaygroundfrontend.vercel.app/)
 
 ## My process
 
@@ -22,9 +24,9 @@ website for London Events searching & posting. This site uses Strapi as a backen
 - [Strapi](https://strapi.io/) - backend CMS
 - [Cloudinary](https://cloudinary.com/) - media management
 - [Heroku](https://www.heroku.com/) - backend deploy
+- [Mapbox](https://www.mapbox.com/) - geocoding
+- [React-Toastify](https://www.npmjs.com/package/react-toastify) - notifications
 
 ### Useful resources
 
-
 ## Acknowledgments
-
