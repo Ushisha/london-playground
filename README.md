@@ -1,6 +1,6 @@
-# London Events (Frontend)
+# London Playground
 
-Events searching & posting website built with Nextjs.
+Event searching & posting website built with Nextjs.
 
 This site uses Strapi as a backend.
 
