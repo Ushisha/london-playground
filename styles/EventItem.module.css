@@ -16,7 +16,7 @@
   flex: 2;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .event {
     flex-direction: column;
     text-align: center;

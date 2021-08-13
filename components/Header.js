@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { FaSignInAlt, FaSignOutAlt } from "react-icons/fa";
+import Image from "next/image"
 import Link from "next/link";
 
 import styles from "@/styles/Header.module.css";
@@ -12,7 +13,8 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <a>London Playgrounds</a>
+          
+          <a><Image className="logo" src="/logo.svg" width={60} height={60}/></a>
         </Link>
       </div>
       <Search />
