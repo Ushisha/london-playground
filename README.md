@@ -27,6 +27,6 @@ This site uses Strapi as a backend.
 - [Mapbox](https://www.mapbox.com/) - geocoding
 - [React-Toastify](https://www.npmjs.com/package/react-toastify) - notifications
 
-### Useful resources
 
-## Acknowledgments
+
+
