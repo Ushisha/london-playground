@@ -1,6 +1,6 @@
 # London Playground
 
-Event searching & posting app built with Nextjs.
+Event searching & posting site built with Nextjs.
 
 This site uses Strapi as a backend.
 
